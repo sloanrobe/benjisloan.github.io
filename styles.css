@@ -1,0 +1,28 @@
+table  {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+thead  {
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+
+td  {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.desc    {
+    text-align: left;
+}
+
+.col1   {
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+.tabletop   {
+    background-color: lightgreen;
+}

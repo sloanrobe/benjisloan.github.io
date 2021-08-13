@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML/CSS Cheatsheet Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Common CSS Properties</h1>
+        <br>
+        <h2>Fonts</h2>
+        <table>
+            <thead>
+                <tr class="tabletop">
+                    <td>Tag</td>
+                    <td>Options</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+           <tbody>
+               <tr>
+                   <td class="col1">&lt;font-family&gt;</td>
+                   <td>serif, sans-serif, Georgia, Helvetica</td>
+                   <td class="desc">Specifies the font for an element</td>
+               </tr>
+               <tr>
+                   <td class="col1">&lt;font-weight&gt;</td>
+                   <td>normal, lighter, bold, bolder</td>
+                   <td class="desc">Specifies how thick or thin some font characters are displayed</td>
+               </tr>
+               <tr>
+                   <td class="col1">&lt;font-style&gt;</td>
+                   <td>normal, italics, oblique</td>
+                   <td class="desc">Sets the style of the font</td>
+               </tr>
+               <tr>
+                   <td class="col1">&lt;font-size&gt;</td>
+                   <td>12px, 0.8em, smaller, 80%</td>
+                   <td class="desc">Sets the size of the font in different units or lengths</td>
+               </tr>
+               <tr>
+                   <td class="col1">&lt;text-transform&gt;</td>
+                   <td>uppercase, lowercase, capitalize</td>
+                   <td class="desc">Controls the capitalization of the text</td>
+               </tr>
+           </tbody>
+        </table>
+        <br>
+        <h2>Borders</h2>
+        <table>
+            <thead>
+                <tr class="tabletop">
+                    <td>Tag</td>
+                    <td>Options</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+           <tbody>
+               <tr>
+                   <td class="col1">&lt;border-color&gt;</td>
+                   <td>blue, green, black, marroon</td>
+                   <td class="desc">Sets the color for the element's border</td>
+               </tr>
+               <tr>
+                   <td class="col1">&lt;border-style&gt;</td>
+                   <td>solid, dotted, dashed, double</td>
+                   <td class="desc">Sets the design of the element's border</td>
+               </tr>
+               <tr>
+                   <td class="col1">&lt;border-width&gt;</td>
+                   <td>normal, italics, oblique</td>
+                   <td class="desc">Sets the width of the element's border</td>
+               </tr>
+           </tbody>
+        </table>
+        <br>
+        <h2>Position</h2>
+        <table>
+            <thead>
+                <tr class="tabletop">
+                    <td>Type</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+           <tbody>
+               <tr>
+                   <td class="col1">static</td>
+                   <td class="desc">Default position.  Set according to normal flow of page.  Not affected by top, bottom, left, or right properties.</td>
+               </tr>
+               <tr>
+                   <td class="col1">relative</td>
+                   <td class="desc">Element is positioned relative to its normal (i.e. static) position.  Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</td>
+               </tr>
+               <tr>
+                   <td class="col1">absolute</td>
+                   <td class="desc">Element is positioned relative to the nearest positioned ancestor.  If an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. Absolute positioned elements are removed from the normal flow, and can overlap elements.</td>
+               </tr>
+               <tr>
+                   <td class="col1">fixed</td>
+                   <td class="desc">Element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.</td>
+               </tr>
+               <tr>
+                   <td class="col1">sticky</td>
+                   <td class="desc">Element is positioned based on the user's scroll position.  A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</td>
+               </tr>
+           </tbody>
+        </table>
+    </body>
+</html>
